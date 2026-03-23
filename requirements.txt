@@ -1,0 +1,7 @@
+javascript
+python-dotenv
+openai
+anthropic
+google-generativeai
+huggingface_hub
+pytest

@@ -1,0 +1,28 @@
+# Environment variables / API keys
+.env
+
+# Python virtual environment
+minecraft_ai/
+
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Training data (too large for GitHub, re-downloadable)
+src/tools/movement/VLA model_(work-in-progress)/data/
+
+# Agent logs and auto-generated walkthroughs
+_agents/logs/
+_agents/knowledbase/walkthroughs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / editor
+.vscode/
+.idea/

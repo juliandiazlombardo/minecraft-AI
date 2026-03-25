@@ -24,6 +24,7 @@ When assisting with this project, keep the following architecture in mind:
 - **Tools vs. Skills:** 
   - If the user asks to add a new *action* (e.g., "make the bot jump"), write a Python function in `src/tools/` and register it in `tool_registry`.
   - If the user asks to add a new *behavior* (e.g., "teach the bot how to survive the first night"), create a Markdown file in `src/skills/` explaining the steps and tools to use.
+- **Path References:** All scripts must reference files/directories relative to the project root by importing path constants from `config.py` (e.g., `from config import PROJECT_ROOT, VLA_DATA_DIR`). Never hardcode absolute or relative paths. If a new directory constant is needed, add it to `config.py` first, then import it.
 - **Testing:** Include tests in the `tests/` directory using pytest.
 - **Error Handling:** Ensure robust error handling, especially for network connections (e.g., Minecraft server unavailability).
 

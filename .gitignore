@@ -13,7 +13,7 @@ __pycache__/
 .ipynb_checkpoints/
 
 # Training data (too large for GitHub, re-downloadable)
-src/tools/movement/VLA model_(work-in-progress)/data/
+src/tools/movement/VLA_model_(work-in-progress)/data/
 
 # Agent logs and auto-generated walkthroughs
 _agents/logs/
